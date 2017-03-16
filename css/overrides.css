@@ -1,0 +1,49 @@
+label {
+  font-weight: bold; }
+
+textarea, textarea.form-control, input.form-control, input[type=text], input[type=password], input[type=email], input[type=number], [type=text].form-control, [type=password].form-control, [type=email].form-control, [type=tel].form-control, [contenteditable].form-control {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.02), inset 0 1px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 3px; }
+
+select, select.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  background-color: white;
+  line-height: inherit;
+  background-position-x: 98%; }
+
+body, h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif; }
+
+p a, td a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a.sg-btn--top {
+  text-decoration: underline; }
+
+td a.btn, .panel-title a {
+  text-decoration: none; }
+
+.btn {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 3px; }
+  .btn-primary {
+    background-color: #672493;
+    border-color: #672493; }
+  .btn-secondary {
+    background-color: #ee0974;
+    color: #fff;
+    background-size: 200% 200%;
+    background-position: 50%; }
+    .btn-secondary:hover {
+      background-color: #c91469; }
+    .btn-secondary:active {
+      transition-property: all;
+      background-image: radial-gradient(circle, #c91469 10%, #920A4A 11%);
+      background-repeat: no-repeat;
+      background-size: 1000% 1000%; }
+
+/*# sourceMappingURL=overrides.css.map */

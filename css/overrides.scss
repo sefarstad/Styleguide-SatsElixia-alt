@@ -1,0 +1,35 @@
+@import "partials/variables";
+@import "partials/forms";
+
+body, h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+p a, td a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a.sg-btn--top {
+	text-decoration: underline;
+}
+td a.btn, .panel-title a {
+	text-decoration: none;
+}
+.btn {
+	box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+	border-radius: $radius;
+	&-primary {
+		background-color: $sats-new-purple-color;
+		border-color: $sats-new-purple-color;
+	}
+	&-secondary {
+		background-color: $pink;
+		color: #fff;
+		background-size: 200% 200%;
+    	background-position: 50%;
+		&:hover {
+			background-color: $dark-pink;
+		}
+		&:active {
+			transition-property: all;
+			background-image: radial-gradient(circle,$dark-pink 10%,#920A4A 11%);
+			background-repeat: no-repeat;
+			background-size: 1000% 1000%;
+		}
+	}
+}

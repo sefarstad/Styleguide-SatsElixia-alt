@@ -2,10 +2,11 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>Styleguide SATS ELIXIA alternative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
-
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
   <!--[if lt IE 9]><link rel="stylesheet" href="css/sg-style-old-ie.css"><![endif]-->
@@ -15,6 +16,7 @@
 
   <!-- Replace below stylesheet with your own stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/overrides.css">
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
@@ -40,20 +42,20 @@
       </ul>
 
       <ul class="sg-nav-group"><li class="sg-subnav-parent"><h3 id="sg-markup-base" class="sg-h3 sg-title">base</h3><a class="sg-hash-link" href="#sg-markup-base"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><ul class="sg-nav-group"><li><a href="#sg-markup-base-buttons-html">buttons</a></li><li><a href="#sg-markup-base-forms-html">forms</a></li><li><a href="#sg-markup-base-headings-html">headings</a></li><li><a href="#sg-markup-base-hr-html">hr</a></li><li><a href="#sg-markup-base-media-html">media</a></li><li><a href="#sg-markup-base-tables-html">tables</a></li><li><a href="#sg-markup-base-text-elements-html">text elements</a></li></ul></li><li class="sg-subnav-parent"><h3 id="sg-markup-compontents" class="sg-h3 sg-title">compontents</h3><a class="sg-hash-link" href="#sg-markup-compontents"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><ul class="sg-nav-group"><li><a href="#sg-markup-compontents-Cards-default-html">Cards default</a></li><li><a href="#sg-markup-compontents-Cards-news-html">Cards news</a></li><li><a href="#sg-markup-compontents-breadcrumbs-html">breadcrumbs</a></li><li><a href="#sg-markup-compontents-collapse-html">collapse</a></li><li><a href="#sg-markup-compontents-hero-html">hero</a></li></ul></li></ul>    </div><!--/.sg-sidebar-->
-
-    <div id="main" class="sg-main container" role="main">
-        <div id="top" class="sg-header" role="banner">
+<div id="top" class="sg-header" role="banner">
     <div class="sg-container">
-      <h1 class="sg-logo"><img src="https://www.satselixia.no/Images/SATS/logo-no.svg" />
-        <span class="sg-logo-full">STYLE GUIDE</span>
-      </h1>
+      <p class="sg-logo"><img src="https://beta.satselixia.no/img/logo-no-black.svg" />
+        <span class="sg-logo-full">STYLE GUIDE <strong>ALT</strong></span>
+      </p>
       <button type="button" class="sg-nav-toggle">Menu</button>
     </div>
   </div><!--/.sg-header-->
+    <div id="main" class="sg-main container" role="main">
+        
       <div class="sg-container">
         <div class="sg-info">
           <div class="sg-about sg-section">
-            <h2 id="sg-about" class="sg-h2">Intro</h2>
+            <h1 id="sg-about" class="sg-h1">Alternative style guide</h1>
             <p>Bootstrapped style guide for Sats/Elixia. More patterns and detailed documentation will come.</p>
             <p>Variables (less) marked with prefix @.</p>
             <p>To view source code click the View source button below the elements.</p>
@@ -69,9 +71,9 @@
                 <div class="sg-color-value">#333333</div>
               </div>
               <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #4b186c;"></div>
-                <div class="sg-color-name">@sats-purple-color</div>
-                <div class="sg-color-value">#4b186c</div>
+                <div class="sg-color-swatch" style="background-color: #672493;"></div>
+                <div class="sg-color-name">@sats-new-purple-color</div>
+                <div class="sg-color-value">#672493</div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #ee0974;"></div>
@@ -114,13 +116,13 @@
             <h2 id="sg-fontStacks" class="sg-h2">Font Stacks</h2>
             <dl class="sg-font-list">
               <dt>Body Font (@font-family-sans-serif):</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Body Font Italic:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-style: italic;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif; font-style: italic;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Body Font Bold:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-weight: 800;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif; font-weight: 800;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Heading Font (@font-family-serif):</dt>
               <dd style='font-family: "GuardianEgyptianWeb", Times, "Times New Roman", serif; font-weight: 300'>GuardianEgyptianWeb, Times, "Times New Roman", serif;</dd>
@@ -134,6 +136,7 @@
 
         <div class="sg-section-group"><h1 id="sg-markup-base" class="sg-h1 sg-title">base</h1><a class="sg-hash-link" href="#sg-markup-base"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-section-group"><div class="sg-section"><h2 id="sg-markup-base-buttons-html" class="sg-h2 sg-title">buttons</h2><a class="sg-hash-link" href="#sg-markup-base-buttons-html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-sub-section sg-doc"><div class="markdown-body"><p>Add your personalized documentation here.</p></div></div><div class="sg-sub-section sg-example">
 <p><button type="button" class="btn btn-primary">Button primary</button></p>
+<p><button type="button" class="btn btn-secondary">Button secondary</button></p>
 <p><button type="button" class="btn btn-default">Button default</button></p>
 <hr>
 <p><button type="button" class="btn btn-primary btn-sm">Button primary small</button></p>
@@ -146,6 +149,7 @@
 
 </div><div class="sg-sub-section"><div class="sg-markup-controls"><button type="button" class="sg-btn sg-btn--source">View Source</button><a class="sg-btn--top" href="#top">Back to Top</a></div><div class="sg-source"><button type="button" class="sg-btn sg-btn--select">Copy Source</button><pre class="line-numbers"><code class="language-markup">
 &lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Button primary&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Button secondary&lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button default&lt;/button&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-sm&quot;&gt;Button primary small&lt;/button&gt;&lt;/p&gt;
@@ -156,7 +160,7 @@
 &lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-outline&quot;&gt;Button primary outline&lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-outline&quot;&gt;Button default outline&lt;/button&gt;&lt;/p&gt;
 
-</code></pre></div></div></div><div class="sg-section"><h2 id="sg-markup-base-forms-html" class="sg-h2 sg-title">forms</h2><a class="sg-hash-link" href="#sg-markup-base-forms-html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-sub-section sg-doc"><div class="markdown-body"><p>Add your personalized documentation here.</p></div></div><div class="sg-sub-section sg-example"><div class="xformsblock">
+</code></pre></div></div></div><div class="sg-section"><h2 id="sg-markup-base-forms-html" class="sg-h2 sg-title">forms</h2><a class="sg-hash-link" href="#sg-markup-base-forms-html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-sub-section sg-doc"><div class="markdown-body"><p>Add your personalized documentation here.</p></div></div><div class="sg-sub-section sg-example">
     <form class="form">
   <fieldset>
     <legend>Form Fields</legend>
@@ -197,7 +201,7 @@
   </fieldset>
   <input type="submit" value="Submit form">
 </form>
-</div></div><div class="sg-sub-section"><div class="sg-markup-controls"><button type="button" class="sg-btn sg-btn--source">View Source</button><a class="sg-btn--top" href="#top">Back to Top</a></div><div class="sg-source"><button type="button" class="sg-btn sg-btn--select">Copy Source</button><pre class="line-numbers"><code class="language-markup">&lt;div class=&quot;xformsblock&quot;&gt;
+</div><div class="sg-sub-section"><div class="sg-markup-controls"><button type="button" class="sg-btn sg-btn--source">View Source</button><a class="sg-btn--top" href="#top">Back to Top</a></div><div class="sg-source"><button type="button" class="sg-btn sg-btn--select">Copy Source</button><pre class="line-numbers"><code class="language-markup">
     &lt;form class=&quot;form&quot;&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;Form Fields&lt;/legend&gt;
@@ -238,7 +242,7 @@
   &lt;/fieldset&gt;
   &lt;input type=&quot;submit&quot; value=&quot;Submit form&quot;&gt;
 &lt;/form&gt;
-&lt;/div&gt;</code></pre></div></div></div><div class="sg-section"><h2 id="sg-markup-base-headings-html" class="sg-h2 sg-title">headings</h2><a class="sg-hash-link" href="#sg-markup-base-headings-html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-sub-section sg-doc"><div class="markdown-body"><p>Add your personalized documentation here.</p></div></div><div class="sg-sub-section sg-example"><h1>Heading 1 with <small>small text</small> and a <a href="#">link</a></h1>
+</code></pre></div></div></div><div class="sg-section"><h2 id="sg-markup-base-headings-html" class="sg-h2 sg-title">headings</h2><a class="sg-hash-link" href="#sg-markup-base-headings-html"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></a><div class="sg-sub-section sg-doc"><div class="markdown-body"><p>Add your personalized documentation here.</p></div></div><div class="sg-sub-section sg-example"><h1>Heading 1 with <small>small text</small> and a <a href="#">link</a></h1>
 <h2>Heading 2 with <small>small text</small> and a <a href="#">link</a></h2>
 <h3>Heading 3 with <small>small text</small> and a <a href="#">link</a></h3>
 <h4>Heading 4 with <small>small text</small> and a <a href="#">link</a></h4>

@@ -3,10 +3,11 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>Styleguide SATS ELIXIA alternative</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
-
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
   <!--[if lt IE 9]><link rel="stylesheet" href="css/sg-style-old-ie.css"><![endif]-->
@@ -16,6 +17,7 @@
 
   <!-- Replace below stylesheet with your own stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/overrides.css">
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
@@ -42,20 +44,20 @@
 
       <?php listFilesInFolder('markup'); ?>
     </div><!--/.sg-sidebar-->
-
-    <div id="main" class="sg-main container" role="main">
-        <div id="top" class="sg-header" role="banner">
+<div id="top" class="sg-header" role="banner">
     <div class="sg-container">
-      <h1 class="sg-logo"><img src="https://www.satselixia.no/Images/SATS/logo-no.svg" />
-        <span class="sg-logo-full">STYLE GUIDE ALT</span>
-      </h1>
+      <p class="sg-logo"><img src="https://beta.satselixia.no/img/logo-no-black.svg" />
+        <span class="sg-logo-full">STYLE GUIDE <strong>ALT</strong></span>
+      </p>
       <button type="button" class="sg-nav-toggle">Menu</button>
     </div>
   </div><!--/.sg-header-->
+    <div id="main" class="sg-main container" role="main">
+        
       <div class="sg-container">
         <div class="sg-info">
           <div class="sg-about sg-section">
-            <h2 id="sg-about" class="sg-h2">Intro</h2>
+            <h1 id="sg-about" class="sg-h1">Alternative style guide</h1>
             <p>Bootstrapped style guide for Sats/Elixia. More patterns and detailed documentation will come.</p>
             <p>Variables (less) marked with prefix @.</p>
             <p>To view source code click the View source button below the elements.</p>
@@ -71,9 +73,9 @@
                 <div class="sg-color-value">#333333</div>
               </div>
               <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #4b186c;"></div>
-                <div class="sg-color-name">@sats-purple-color</div>
-                <div class="sg-color-value">#4b186c</div>
+                <div class="sg-color-swatch" style="background-color: #672493;"></div>
+                <div class="sg-color-name">@sats-new-purple-color</div>
+                <div class="sg-color-value">#672493</div>
               </div>
               <div class="sg-color">
                 <div class="sg-color-swatch" style="background-color: #ee0974;"></div>
@@ -116,13 +118,13 @@
             <h2 id="sg-fontStacks" class="sg-h2">Font Stacks</h2>
             <dl class="sg-font-list">
               <dt>Body Font (@font-family-sans-serif):</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Body Font Italic:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-style: italic;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif; font-style: italic;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Body Font Bold:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-weight: 800;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style='font-family: "Roboto", Helvetica, Arial, sans-serif; font-weight: 800;'>"Roboto", Helvetica, Arial, sans-serif;</dd>
 
               <dt>Heading Font (@font-family-serif):</dt>
               <dd style='font-family: "GuardianEgyptianWeb", Times, "Times New Roman", serif; font-weight: 300'>GuardianEgyptianWeb, Times, "Times New Roman", serif;</dd>
