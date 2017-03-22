@@ -18,8 +18,23 @@ select, select.form-control {
   line-height: inherit;
   background-position-x: 98%; }
 
+.panel.panel-card {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 3px; }
+  .panel.panel-card:hover.inspiration-card .panel-heading img {
+    transform: none; }
+
+.panel-card-container {
+  border: none; }
+
+.panel.panel-card:hover.news-card .panel-heading img {
+  transform: none; }
+
 body, h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Roboto', Helvetica, Arial, sans-serif; }
+
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700; }
 
 p a, td a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a.sg-btn--top {
   text-decoration: underline; }
